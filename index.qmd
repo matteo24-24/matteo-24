@@ -10,6 +10,7 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/matteo-glaizal/
+      targer_ 
 ---
 
 BLABLA

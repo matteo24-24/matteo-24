@@ -1,6 +1,15 @@
 project:
   type: website
   output-dir: docs
-  
+
 website:
-  title: "Site Test"
+  title: "matteo-24"
+  favicon: ../favicon.png
+  navbar:
+    title: false
+    logo: ../logo.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
