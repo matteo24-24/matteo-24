@@ -1,9 +1,6 @@
 ---
-title: "matteo-24"
+title: "MATTEO_GLAIZAL"
 ---
-
-This is a Quarto website.
-
 
 ---
 image: eiffel.jpg
@@ -15,4 +12,4 @@ about:
       href: https://www.linkedin.com/in/matteo-glaizal/
 ---
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+BLABLA
