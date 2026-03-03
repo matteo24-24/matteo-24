@@ -4,4 +4,15 @@ title: "matteo-24"
 
 This is a Quarto website.
 
+
+---
+image: eiffel.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/matteo-glaizal/
+---
+
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
