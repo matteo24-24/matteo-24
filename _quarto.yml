@@ -4,10 +4,10 @@ project:
 
 website:
   title: "matteo-24"
-  favicon: ../favicon.png
+  favicon: favicon.png
   navbar:
     title: false
-    logo: ../logo.png
+    logo: logo.png
     left:
       - href: index.qmd
         text: Home
