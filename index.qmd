@@ -1,16 +1,10 @@
 ---
-title: "MATTEO_GLAIZAL"
----
-
----
 image: eiffel.jpg
 about:
   template: jolla
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/matteo-glaizal/
-      targer_ 
+      href: https://www.linkedin.com/in/matteo
 ---
-
 BLABLA
