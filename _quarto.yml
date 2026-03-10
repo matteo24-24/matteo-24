@@ -15,4 +15,4 @@ website:
         text: About
 format:
   html:
-    theme: united
+    theme: [united, styles.scss]
