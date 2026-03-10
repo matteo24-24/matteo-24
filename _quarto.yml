@@ -13,3 +13,7 @@ website:
         text: Home
       - href: about.qmd
         text: About
+format:
+  theme:
+    light: flatly
+    dark: darkly 
