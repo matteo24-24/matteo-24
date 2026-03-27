@@ -18,7 +18,10 @@ website:
       - href: documents/cv-fr-matteo.pdf
         text: CV
         target: _blank
+
 format:
   html:
-    theme: [united, styles.scss]
+    theme:
+      light: [cosmo, styles.scss]
+      dark: darkly
     mainfont: "Roboto"

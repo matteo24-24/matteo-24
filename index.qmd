@@ -5,6 +5,6 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/matteo
+      href: https://www.linkedin.com/in/matteo-glaizal-28a799345/
 ---
 BLABLA
