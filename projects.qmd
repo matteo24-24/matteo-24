@@ -1,5 +1,14 @@
 ---
 title: "Mes Projets"
+listing:
+  contents: posts # Le dossier où Quarto va chercher les projets
+  sort: "date desc" # Trie les projets du plus récent au plus ancien
+  type: grid # Affiche sous forme de grille (très visuel)
+  categories: true # Permet de filtrer par catégories (ex: Python, SQL)
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
 
 Voici une sélection de mes travaux et analyses de données réalisés durant mon cursus.

@@ -1,0 +1,10 @@
+---
+title: "Mon premier projet d'analyse"
+description: "Une courte description de ce super projet de data."
+author: "Matteo Glaizal"
+date: "2026-03-27"
+categories: [Python, Data Viz]
+image: "image_test.jpg"
+---
+
+Ici, je détaillerai le code et les résultats de mon analyse.
