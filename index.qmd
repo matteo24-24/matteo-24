@@ -1,5 +1,5 @@
 ---
-image: eiffel.jpg
+image: images/eiffel.jpg
 about:
   template: jolla
   links:

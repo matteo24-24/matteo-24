@@ -1,0 +1,5 @@
+---
+title: "Mes Projets"
+---
+
+Voici une sélection de mes travaux et analyses de données réalisés durant mon cursus.

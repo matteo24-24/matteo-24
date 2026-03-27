@@ -4,17 +4,20 @@ project:
 
 website:
   title: "matteo-24"
-  favicon: favicon.png
+  favicon: images/favicon.png
   navbar:
     title: false
-    logo: logo.png
+    logo: images/logo.png
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
-      - href: cv.qmd
-        text: cv
+      - href: projects.qmd
+        text: Projects
+      - href: documents/cv-fr-matteo.pdf
+        text: CV
+        target: _blank
 format:
   html:
     theme: [united, styles.scss]
