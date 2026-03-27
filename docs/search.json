@@ -12,5 +12,12 @@
     "title": "About",
     "section": "",
     "text": "Page de test."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Mon CV",
+    "section": "",
+    "text": "Vous pouvez consulter mon CV directement ci-dessous ou le télécharger :\n📄 Cliquez ici pour ouvrir/télécharger mon CV"
   }
 ]

@@ -1,0 +1,9 @@
+---
+title: "Mon CV"
+---
+
+Vous pouvez consulter mon CV directement ci-dessous ou le télécharger :
+
+[📄 Cliquez ici pour ouvrir/télécharger mon CV](cv-fr-matteo.pdf){target="_blank"}
+
+<iframe src="cv-fr-matteo.pdf" width="100%" height="800px"></iframe>
