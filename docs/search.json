@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Mes Projets",
+    "section": "",
+    "text": "Voici une sélection de mes travaux et analyses de données réalisés durant mon cursus.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMon premier projet d’analyse\n\n\n\nPython\n\nData Viz\n\n\n\nUne courte description de ce super projet de data.\n\n\n\nMatteo Glaizal\n\n\nMar 27, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "matteo-24",
@@ -12,20 +19,6 @@
     "title": "About",
     "section": "",
     "text": "Page de test."
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Mon CV",
-    "section": "",
-    "text": "Vous pouvez consulter mon CV directement ci-dessous ou le télécharger :\n📄 Cliquez ici pour ouvrir/télécharger mon CV"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Mes Projets",
-    "section": "",
-    "text": "Voici une sélection de mes travaux et analyses de données réalisés durant mon cursus.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMon premier projet d’analyse\n\n\n\nPython\n\nData Viz\n\n\n\nUne courte description de ce super projet de data.\n\n\n\nMatteo Glaizal\n\n\nMar 27, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Project-1/index.html",
