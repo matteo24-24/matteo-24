@@ -6,5 +6,11 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/matteo-glaizal-28a799345/
+    - icon: github
+      text: Github
+      href: https://github.com/matteo24-24
+    - icon: envelope
+      text: Email
+      href: mailto:[glaizal.matteo2@mail.dcu.ie]
 ---
 BLABLA
