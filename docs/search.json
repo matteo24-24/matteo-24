@@ -68,5 +68,12 @@
     "title": "Contact & Références",
     "section": "Références professionnelles",
     "text": "Références professionnelles\nAjoute ici le nom, la fonction et l’email de tes profs ou d’anciens maîtres de stage si tu en as."
+  },
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Bilan du module",
+    "section": "",
+    "text": "Ce module m’a permis d’apprendre plusieurs choses importantes… (Rédige ici un petit paragraphe sur ce que tu as kiffé ou appris à faire avec Quarto, Python ou Git)"
   }
 ]
