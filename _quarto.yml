@@ -19,7 +19,7 @@ website:
         text: Reflection
       - href: contact.qmd
         text: Contact/ References
-      - href: documents/cv-fr-matteo.pdf
+      - href: CV/cv-fr-matteo.pdf
         text: CV
         target: _blank
       - icon : github
