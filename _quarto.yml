@@ -18,7 +18,7 @@ website:
       - href: reflexion.qmd
         text: Reflection
       - href: contact.qmd
-        text: Contact
+        text: Contact/ References
       - href: documents/cv-fr-matteo.pdf
         text: CV
         target: _blank
