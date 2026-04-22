@@ -13,5 +13,17 @@
   },
   "posts/Project-1/index.qmd": {
     "index.html": "da1a3c7c"
+  },
+  "projects/index.qmd": {
+    "index.html": "aa5f068e"
+  },
+  "projects/Project-1/index.qmd": {
+    "index.html": "9eb514ab"
+  },
+  "contact.qmd": {
+    "contact.html": "8d18596f"
+  },
+  "reflexion.qmd": {
+    "reflexion.html": "352047ca"
   }
 }

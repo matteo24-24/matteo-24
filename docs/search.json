@@ -26,5 +26,47 @@
     "title": "Mon premier projet d’analyse",
     "section": "",
     "text": "Ici, je détaillerai le code et les résultats de mon analyse."
+  },
+  {
+    "objectID": "projects/Project-1/index.html",
+    "href": "projects/Project-1/index.html",
+    "title": "Mon premier projet d’analyse",
+    "section": "",
+    "text": "Ici, je détaillerai le code et les résultats de mon analyse."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Mes Projets",
+    "section": "",
+    "text": "Voici une sélection de mes travaux et analyses de données réalisés durant mon cursus.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMon premier projet d’analyse\n\n\n\nPython\n\nData Viz\n\n\n\nUne courte description de ce super projet de data.\n\n\n\nMatteo Glaizal\n\n\nMar 27, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "reflexion.html",
+    "href": "reflexion.html",
+    "title": "Bilan du module",
+    "section": "",
+    "text": "Ce module m’a permis d’apprendre plusieurs choses importantes… (Rédige ici un petit paragraphe sur ce que tu as kiffé ou appris à faire avec Quarto, Python ou Git)"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact & Références",
+    "section": "",
+    "text": "Vous pouvez me joindre directement via : - Email : glaizal.matteo2@mail.dcu.ie - LinkedIn : Mon profil"
+  },
+  {
+    "objectID": "contact.html#me-contacter",
+    "href": "contact.html#me-contacter",
+    "title": "Contact & Références",
+    "section": "",
+    "text": "Vous pouvez me joindre directement via : - Email : glaizal.matteo2@mail.dcu.ie - LinkedIn : Mon profil"
+  },
+  {
+    "objectID": "contact.html#références-professionnelles",
+    "href": "contact.html#références-professionnelles",
+    "title": "Contact & Références",
+    "section": "Références professionnelles",
+    "text": "Références professionnelles\nAjoute ici le nom, la fonction et l’email de tes profs ou d’anciens maîtres de stage si tu en as."
   }
 ]

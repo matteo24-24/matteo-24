@@ -4,5 +4,11 @@
     "items": [
       "/posts/Project-1/index.html"
     ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/Project-1/index.html"
+    ]
   }
 ]

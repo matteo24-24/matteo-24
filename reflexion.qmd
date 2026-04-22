@@ -1,0 +1,6 @@
+---
+title: "Bilan du module"
+---
+
+Ce module m'a permis d'apprendre plusieurs choses importantes...
+*(Rédige ici un petit paragraphe sur ce que tu as kiffé ou appris à faire avec Quarto, Python ou Git)*
