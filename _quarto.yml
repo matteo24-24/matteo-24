@@ -22,6 +22,12 @@ website:
       - href: documents/cv-fr-matteo.pdf
         text: CV
         target: _blank
+      - icon : github
+        href: https://github.com/matteo24-24
+        target: _blank
+  page-footer:
+    left: "© 2026 Matteo Glaizal"
+    right: "Built with Quarto"
       
 
 format:
