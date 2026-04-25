@@ -1,10 +1,13 @@
 ---
-title: "Bilan du module"
+title: "Module rerview"
 ---
 
 Module Reflection
 Throughout this Workflow & Data Management module, I have significantly expanded my technical skill set. Coming from a pure business background, diving into coding and web development was a rewarding challenge.
 
-I learned how to build and structure a professional website using Quarto and successfully deployed it using GitHub Pages. Mastering version control with Git taught me the crucial importance of organized workflows and proper repository management. Furthermore, learning to integrate executable Python code into my projects bridged the gap between raw data analysis and clear, professional presentation.
+I discovered a lot of things; Firstly I learned how to build and structure a professional website using Quarto and successfully deployed it using GitHub Pages. Mastering version control with Git taught me the crucial importance of organized workflows and proper repository management. Furthermore, learning to integrate executable Python code into my projects bridged the gap between raw data analysis and clear, professional presentation.
+I learned as well to use Powershell, VS code and other new software for me.
 
 This module not only improved my technical agility but also proved that a "growth mindset" is essential for adapting to today's data-driven business world.
+
+The course format, with learning by doing exercises, was perfect for me because it allowed me to do concrete things and feel like I was progressing with each session.
