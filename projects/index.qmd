@@ -1,5 +1,5 @@
 ---
-title: "Mes Projets"
+title: "My projects"
 listing:
   contents: . 
   sort: "date desc" 
@@ -11,4 +11,4 @@ page-layout: full
 title-block-banner: true
 ---
 
-Voici une sélection de mes travaux et analyses de données réalisés durant mon cursus.
+Here is a selection of my work and data analyses carried out during my studies.
