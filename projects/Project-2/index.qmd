@@ -53,7 +53,7 @@ fig.add_trace(go.Scattergeo(
         color = '#e74c3c',
         line = dict(width = 2, color = 'white')
     ),
-    textposition="top center"
+    textposition="top center", "middle right", "middle left", "top center", "bottom center", "top right"
 ))
 
 # Configure the map layout
@@ -73,3 +73,17 @@ fig.update_layout(
 
 fig.show()
 ```
+
+The Lessons Learned
+Each destination taught me something different about the world and myself:
+
+Galway (The First Step): A simple overnight trip that proved I could manage logistics on my own in a foreign country.
+
+Edinburgh (The Solo Leap): My first time traveling completely alone. Walking through the Scottish streets by myself was a massive boost in confidence.
+
+Morocco (The Cultural Shift): My first time outside of Europe. It was an eye-opening experience that taught me to appreciate and navigate different traditions and environments.
+
+Sweden (The Wild): A week dedicated to nature. It taught me the importance of slowing down and reconnecting with the environment.
+
+Conclusion
+A year ago, I was a student who had never left home. Today, thanks to this Erasmus experience, I see the world as a map of opportunities rather than a series of borders. This project is a tribute to that transformation.
