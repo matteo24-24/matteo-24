@@ -41,3 +41,4 @@ fig.update_traces(texttemplate='%{text}h', textposition='outside')
 fig.update_layout(yaxis_title="Volume (Hours/Week)", xaxis_title="Timeline")
 
 fig.show()
+```
