@@ -1,10 +1,10 @@
 ---
 title: "Mes Projets"
 listing:
-  contents: . # Le dossier où Quarto va chercher les projets
-  sort: "date desc" # Trie les projets du plus récent au plus ancien
-  type: grid # Affiche sous forme de grille (très visuel)
-  categories: true # Permet de filtrer par catégories (ex: Python, SQL)
+  contents: . 
+  sort: "date desc" 
+  type: grid 
+  categories: true 
   sort-ui: false
   filter-ui: false
 page-layout: full
