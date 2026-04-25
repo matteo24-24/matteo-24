@@ -11,6 +11,6 @@ about:
       href: https://github.com/matteo24-24
     - icon: envelope
       text: Email
-      href: mailto:[glaizal.matteo2@mail.dcu.ie]
+      href: mailto:glaizal.matteo2@mail.dcu.ie
 ---
 Hi, I am Matteo Glaizal. I am a French business student at Montpellier Business School, currently completing an Erasmus exchange at DCU in Dublin. I am driven by curiosity, adaptability, and a strong commitment to excellence. Welcome to my ePortfolio, where I showcase my academic journey and data management projects
