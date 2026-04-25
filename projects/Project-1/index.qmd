@@ -1,10 +1,43 @@
 ---
-title: "Mon premier projet d'analyse"
-description: "Une courte description de ce super projet de data."
-author: "Matteo Glaizal"
-date: "2026-03-27"
-categories: [Python, Data Viz]
-image: "image-test.jpg"
+title: "The Road to 21.1km: A Data-Driven Training Journey"
+description: "How I tracked my training volume and performance to complete my first half-marathon."
+author: "Matteo"
+date: "2024-04-25"
+image: "image-test.jpg" 
+categories: [Running, Data Analysis, Python]
+code-fold: true
 ---
 
-Ici, je détaillerai le code et les résultats de mon analyse.
+## The Challenge
+
+In September, I set myself a goal: to run a half-marathon by the end of April. As someone new to long-distance running, I wanted to document my progress and see how my training volume directly impacted my performance in intermediate races.
+
+## Training Volume Evolution
+
+The following interactive chart shows my weekly training volume (in hours) from the start of my journey in September to the race month in April. 
+
+```{python}
+import plotly.express as px
+import pandas as pd
+
+# Creating the dataset based on my training logs
+data = {
+    'Month': ['Sept', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr'],
+    'Hours per Week': [1, 1, 2, 3, 4, 4, 0, 7],
+    'Phase': ['Beginning', 'Baseline', '5km Prep', 'Building', '10km Prep', 'Peak', 'Slump', 'Final Push']
+}
+
+df = pd.DataFrame(data)
+
+# Creating an interactive bar chart with Plotly
+fig = px.bar(df, x='Month', y='Hours per Week', 
+             title='Weekly Training Volume (Sept - Apr)',
+             text='Hours per Week',
+             hover_data=['Phase'],
+             color='Hours per Week',
+             color_continuous_scale='Viridis')
+
+fig.update_traces(texttemplate='%{text}h', textposition='outside')
+fig.update_layout(yaxis_title="Volume (Hours/Week)", xaxis_title="Timeline")
+
+fig.show()

@@ -30,9 +30,9 @@
   {
     "objectID": "projects/Project-1/index.html",
     "href": "projects/Project-1/index.html",
-    "title": "Mon premier projet d’analyse",
+    "title": "The Road to 21.1km: A Data-Driven Training Journey",
     "section": "",
-    "text": "Ici, je détaillerai le code et les résultats de mon analyse."
+    "text": "In September, I set myself a goal: to run a half-marathon by the end of April. As someone new to long-distance running, I wanted to document my progress and see how my training volume directly impacted my performance in intermediate races."
   },
   {
     "objectID": "projects/index.html",
@@ -75,5 +75,19 @@
     "title": "Bilan du module",
     "section": "",
     "text": "Module Reflection Throughout this Workflow & Data Management module, I have significantly expanded my technical skill set. Coming from a pure business background, diving into coding and web development was a rewarding challenge.\nI learned how to build and structure a professional website using Quarto and successfully deployed it using GitHub Pages. Mastering version control with Git taught me the crucial importance of organized workflows and proper repository management. Furthermore, learning to integrate executable Python code into my projects bridged the gap between raw data analysis and clear, professional presentation.\nThis module not only improved my technical agility but also proved that a “growth mindset” is essential for adapting to today’s data-driven business world."
+  },
+  {
+    "objectID": "projects/Project-1/index.html#the-challenge",
+    "href": "projects/Project-1/index.html#the-challenge",
+    "title": "The Road to 21.1km: A Data-Driven Training Journey",
+    "section": "",
+    "text": "In September, I set myself a goal: to run a half-marathon by the end of April. As someone new to long-distance running, I wanted to document my progress and see how my training volume directly impacted my performance in intermediate races."
+  },
+  {
+    "objectID": "projects/Project-1/index.html#training-volume-evolution",
+    "href": "projects/Project-1/index.html#training-volume-evolution",
+    "title": "The Road to 21.1km: A Data-Driven Training Journey",
+    "section": "Training Volume Evolution",
+    "text": "Training Volume Evolution\nThe following interactive chart shows my weekly training volume (in hours) from the start of my journey in September to the race month in April.\nimport plotly.express as px import pandas as pd"
   }
 ]

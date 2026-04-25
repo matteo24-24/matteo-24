@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Matteo Glaizal">
-<meta name="dcterms.date" content="2026-03-27">
-<meta name="description" content="Une courte description de ce super projet de data.">
+<meta name="author" content="Matteo">
+<meta name="dcterms.date" content="2024-04-25">
+<meta name="description" content="How I tracked my training volume and performance to complete my first half-marathon.">
 
-<title>Mon premier projet d’analyse – matteo-24</title>
+<title>The Road to 21.1km: A Data-Driven Training Journey – matteo-24</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -46,9 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-377088620711d0cb340521352933973b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-86026f19567869e83992234c4cb60247.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-ab2b2a145eea6838510b46e14b7cbf06.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-377088620711d0cb340521352933973b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-86026f19567869e83992234c4cb60247.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -273,8 +273,21 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../documents/cv-fr-matteo.pdf" target="_blank"> 
+    <a class="nav-link" href="../../reflection.html"> 
+<span class="menu-text">Reflection</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contact.html"> 
+<span class="menu-text">Contact/ References</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../CV/cv-fr-matteo.pdf" target="_blank"> 
 <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/matteo24-24" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -295,16 +308,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Mon premier projet d’analyse</h1>
+<h1 class="title">The Road to 21.1km: A Data-Driven Training Journey</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">Running</div>
+    <div class="quarto-category">Data Analysis</div>
     <div class="quarto-category">Python</div>
-    <div class="quarto-category">Data Viz</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Une courte description de ce super projet de data.
+    How I tracked my training volume and performance to complete my first half-marathon.
   </div>
 </div>
 
@@ -314,14 +328,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Matteo Glaizal </p>
+             <p>Matteo </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 27, 2026</p>
+      <p class="date">April 25, 2024</p>
     </div>
   </div>
   
@@ -333,9 +347,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Ici, je détaillerai le code et les résultats de mon analyse.</p>
+<section id="the-challenge" class="level2">
+<h2 class="anchored" data-anchor-id="the-challenge">The Challenge</h2>
+<p>In September, I set myself a goal: to run a half-marathon by the end of April. As someone new to long-distance running, I wanted to document my progress and see how my training volume directly impacted my performance in intermediate races.</p>
+</section>
+<section id="training-volume-evolution" class="level2">
+<h2 class="anchored" data-anchor-id="training-volume-evolution">Training Volume Evolution</h2>
+<p>The following interactive chart shows my weekly training volume (in hours) from the start of my journey in September to the race month in April.</p>
+<p>import plotly.express as px import pandas as pd</p>
+</section>
+<section id="creating-the-dataset-based-on-my-training-logs" class="level1">
+<h1>Creating the dataset based on my training logs</h1>
+<p>data = { ‘Month’: [‘Sept’, ‘Oct’, ‘Nov’, ‘Dec’, ‘Jan’, ‘Feb’, ‘Mar’, ‘Apr’], ‘Hours per Week’: [1, 1, 2, 3, 4, 4, 0, 7], ‘Phase’: [‘Beginning’, ‘Baseline’, ‘5km Prep’, ‘Building’, ‘10km Prep’, ‘Peak’, ‘Slump’, ‘Final Push’] }</p>
+<p>df = pd.DataFrame(data)</p>
+</section>
+<section id="creating-an-interactive-bar-chart-with-plotly" class="level1">
+<h1>Creating an interactive bar chart with Plotly</h1>
+<p>fig = px.bar(df, x=‘Month’, y=‘Hours per Week’, title=‘Weekly Training Volume (Sept - Apr)’, text=‘Hours per Week’, hover_data=[‘Phase’], color=‘Hours per Week’, color_continuous_scale=‘Viridis’)</p>
+<p>fig.update_traces(texttemplate=‘%{text}h’, textposition=‘outside’) fig.update_layout(yaxis_title=“Volume (Hours/Week)”, xaxis_title=“Timeline”)</p>
+<p>fig.show()</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -752,6 +785,19 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Matteo Glaizal</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with Quarto</p>
+</div>
+  </div>
+</footer>
 
 
 
