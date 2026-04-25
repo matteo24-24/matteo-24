@@ -1,0 +1,75 @@
+---
+title: "Beyond the Horizon: My Erasmus Travel Diary"
+description: "From Montpellier to the world: how moving to Dublin became the catalyst for exploring five different countries."
+author: "Matteo"
+date: "2024-05-10"
+image: "../images/travel_thumbnail.jpg"
+categories: [Travel, Personal Growth, Python]
+jupyter: python3
+code-fold: true
+---
+
+## From Montpellier to the Great Unknown
+
+I grew up in **Montpellier**, a sunny city in the South of France. For a long time, my world was relatively small; I had never really traveled or explored beyond my comfort zone. When I was accepted for an Erasmus year in **Dublin**, I knew it would be my "Challenge Number 1". 
+
+Dublin didn't just become my new home; it became my launchpad.
+
+## Mapping the Journey
+
+The map below visualizes my progression. Each point represents a barrier broken, from my first night away in Galway to solo adventures in the Highlands and cultural immersions in Africa.
+
+```{python}
+import plotly.graph_objects as go
+import pandas as pd
+
+# Data for my travels
+travels = pd.DataFrame({
+    'City': ['Montpellier', 'Dublin', 'Galway', 'Edinburgh', 'Morocco', 'Sweden'],
+    'Lat': [43.61, 53.34, 53.27, 55.95, 31.62, 59.32],
+    'Lon': [3.87, -6.26, -9.05, -3.18, -7.98, 18.06],
+    'Note': [
+        'Where it all started', 
+        'My Erasmus Base (Challenge #1)', 
+        'First step: A short night away', 
+        'First solo trip: Independence', 
+        'Cultural discovery', 
+        'Connecting with nature'
+    ]
+})
+
+fig = go.Figure()
+
+# Add the points
+fig.add_trace(go.Scattergeo(
+    locationmode = 'ISO-3',
+    lat = travels['Lat'],
+    lon = travels['Lon'],
+    hoverinfo = 'text',
+    text = travels['City'] + ": " + travels['Note'],
+    mode = 'markers+text',
+    marker = dict(
+        size = 12,
+        color = '#e74c3c',
+        line = dict(width = 2, color = 'white')
+    ),
+    textposition="top center"
+))
+
+# Configure the map layout
+fig.update_layout(
+    title = 'Erasmus Travels from Dublin',
+    geo = dict(
+        scope = 'world',
+        projection_type = 'azimuthal equal area',
+        showland = True,
+        landcolor = "rgb(243, 243, 243)",
+        countrycolor = "rgb(204, 204, 204)",
+        lataxis = dict(range=[30, 70]),
+        lonaxis = dict(range=[-20, 30]),
+    ),
+    margin={"r":0,"t":40,"l":0,"b":0}
+)
+
+fig.show()
+```
