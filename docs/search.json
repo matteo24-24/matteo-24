@@ -88,6 +88,6 @@
     "href": "projects/Project-1/index.html#training-volume-evolution",
     "title": "The Road to 21.1km: A Data-Driven Training Journey",
     "section": "Training Volume Evolution",
-    "text": "Training Volume Evolution\nThe following interactive chart shows my weekly training volume (in hours) from the start of my journey in September to the race month in April.\nimport plotly.express as px import pandas as pd"
+    "text": "Training Volume Evolution\nThe following interactive chart shows my weekly training volume (in hours) from the start of my journey in September to the race month in April.\n\n\nCode\nimport plotly.express as px\nimport pandas as pd\n\n# Creating the dataset based on my training logs\ndata = {\n    'Month': ['Sept', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr'],\n    'Hours per Week': [1, 1, 2, 3, 4, 4, 0, 7],\n    'Phase': ['Beginning', 'Baseline', '5km Prep', 'Building', '10km Prep', 'Peak', 'Slump', 'Final Push']\n}\n\ndf = pd.DataFrame(data)\n\n# Creating an interactive bar chart with Plotly\nfig = px.bar(df, x='Month', y='Hours per Week', \n             title='Weekly Training Volume (Sept - Apr)',\n             text='Hours per Week',\n             hover_data=['Phase'],\n             color='Hours per Week',\n             color_continuous_scale='Viridis')\n\nfig.update_traces(texttemplate='%{text}h', textposition='outside')\nfig.update_layout(yaxis_title=\"Volume (Hours/Week)\", xaxis_title=\"Timeline\")\n\nfig.show()"
   }
 ]
