@@ -53,7 +53,7 @@ fig.add_trace(go.Scattergeo(
         color = '#e74c3c',
         line = dict(width = 2, color = 'white')
     ),
-    textposition="top center", "middle right", "middle left", "top center", "bottom center", "top right"
+    textposition=["top center", "middle right", "middle left", "top center", "bottom center", "top right"]
 ))
 
 # Configure the map layout
