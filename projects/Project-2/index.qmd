@@ -2,8 +2,8 @@
 title: "Beyond the Horizon: My Erasmus Travel Diary"
 description: "From Montpellier to the world: how moving to Dublin became the catalyst for exploring five different countries."
 author: "Matteo"
-date: "2024-05-10"
-image: "../images/travel_thumbnail.jpg"
+date: "2026-04-20"
+image: "travel.jpg"
 categories: [Travel, Personal Growth, Python]
 jupyter: python3
 code-fold: true
