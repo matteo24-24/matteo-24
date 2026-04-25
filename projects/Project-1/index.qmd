@@ -6,6 +6,7 @@ date: "2024-04-25"
 image: "image-test.jpg" 
 categories: [Running, Data Analysis, Python]
 code-fold: true
+jupyter: python3
 ---
 
 ## The Challenge
